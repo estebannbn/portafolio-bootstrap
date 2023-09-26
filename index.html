@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--MetaData-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Esteban Bellini">
+    <meta name="description" content="Portafolio de freeCodeCamp en español">
+    <meta name="keywords" content="Portafolio, freeCodeCamp, HTML, CSS, JavaScript, Bootstrap">
+    <!--Bootstrap stylesheet-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--My stylesheet-->
+    <link rel="stylesheet" href="styles.css">
+    <!--Bootstrap script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--Bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/goku supreme.jpg" type="image/x-icon">
+    <!--Title-->
+    <title>Esteban Bellini</title>
+</head>
+<body>
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="images/goku supreme.jpg" id="home-logo" alt="goku">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Seccion Hero-->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img src="images/george navideño.jpeg" id="jorge" alt="jorge floyd">
+        <h1>Hola, soy Esteban Bellini</h1>
+        <h2>Estudiante de ingenieria en sistemas de información en UTN FRRO</h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="img-fluid hero-inferior-img" src="images/hero-inferior.svg" alt="computadoras">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Esteban Bellini</h2>
+        <p class="seccion-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, possimus sequi. Laborum accusantium cum quam ipsa, quisquam saepe, doloribus, tenetur nihil amet nam iure ullam quo voluptatem qui aspernatur dolor?</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center"> 
+          <div class="row">
+            <!-- Desarrollo Web -->
+            <div class="columna col-12 col-md-4">
+              <i class="bi bi-laptop"></i>
+              <p class="experiencia-titulo">Desarrollo Web</p>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum ab soluta sed quia laboriosam aut nobis magnam similique eveniet, pariatur assumenda tempora saepe sapiente! Laborum iste ducimus dolorem atque eaque!</p>
+              <div class="badges-contenedor">
+                <span class="badge bg-primary">HTML</span>
+                <span class="badge bg-primary">CSS</span>
+                <span class="badge bg-primary">JavaScript</span>
+                <span class="badge bg-primary">React</span>
+              </div>
+            </div>
+
+            <!-- Articulos -->
+            <div class="columna col-12 col-md-4">
+              <i class="bi bi-laptop"></i>
+              <p class="experiencia-titulo">Articulos</p>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum ab soluta sed quia laboriosam aut nobis magnam similique eveniet, pariatur assumenda tempora saepe sapiente! Laborum iste ducimus dolorem atque eaque!</p>
+              <div class="badges-contenedor">
+                <span class="badge bg-primary">Escribir</span>
+                <span class="badge bg-primary">Editar</span>
+                <span class="badge bg-primary">Blogs</span>
+              </div>
+            </div>
+
+            <!-- Estudiante -->
+            <div class="columna col-12 col-md-4">
+              <i class="bi bi-laptop"></i>
+              <p class="experiencia-titulo">Desarrollo Web</p>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum ab soluta sed quia laboriosam aut nobis magnam similique eveniet, pariatur assumenda tempora saepe sapiente! Laborum iste ducimus dolorem atque eaque!</p>
+              <div class="badges-contenedor">
+                <span class="badge bg-primary">freeCodeCamp</span>
+                <span class="badge bg-primary">Desarrollo web</span>
+                <span class="badge bg-primary">Python</span>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+</body>
+</html>
